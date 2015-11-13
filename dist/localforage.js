@@ -1154,7 +1154,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var localForage = new LocalForage();
 
 	    exports['default'] = localForage;
-	}).call(typeof window !== 'undefined' ? window : self);
+	}).call(typeof window !== 'undefined' ? window : (typeof self !== 'undefined' ? self : {}));
 	module.exports = exports['default'];
 
 /***/ },
